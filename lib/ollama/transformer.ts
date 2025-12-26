@@ -3,8 +3,8 @@ import { Model } from '@/lib/types/models'
 import { OllamaModel, OllamaModelCapabilities } from './types'
 
 /**
- * Transform Ollama model to Morphic Model format
- * Only includes models with tools capability (required for Morphic)
+ * Transform Ollama model to formexa Model format
+ * Only includes models with tools capability (required for formexa)
  */
 export function transformOllamaModel(
   ollamaModel: OllamaModel,
